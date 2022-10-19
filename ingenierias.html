@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ingenierias</title>
+    <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <img class="barras-menu" id="btn-menu" src="images/bars-solid.svg" alt="Barras menu">
+        <nav>
+            <ul class="nav-oculto" id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a target="_blank" href="ingenierias.html">Ingenierias</a></li>
+                <li><a target="_blank" href="economicas.html">Economicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="biblioteca">
+        <h1>Ingenierias</h1>
+    </div>
+    <div class="content">
+        <div class="infocarreras">
+            <h2>Ingenieria en Sistemas</h2>
+            <p>El núcleo de formación consiste del conocimiento básico, ya sea en los aspectos teóricos de Ciencias
+                Básicas (Matemática, Física y Química) como en los aspectos fundamentales de Ciencias de la Computación.
+                Las materias de orientación principalmente teóricas se dictarán en los dos primeros años de la carrera,
+                mientras que a partir del 3er. año se comienzan a dictar las materias específicas de informática.
+            </p>
+            <a target="_blank"
+                href="https://web.exa.unicen.edu.ar/es/estudios/carreras-grado/ing-sistemas/plan-estudios">Aca podes ver
+                el plan de estudios
+            </a>
+        </div>
+        <div class="infocarreras">
+            <h2>Ingenieria Industrial</h2>
+            <p>La ingenieria industrial se ocupa de la optimización de procesos, sistemas u organizaciones complejos
+                mediante el desarrollo, la mejora y la implementación de sistemas integrados de personas (recursos
+                humanos), riqueza, conocimiento, información y equipamiento, energía, materiales y procesos.
+                Todo con la finalidad de obtener productos de alta calidad o servicios útiles que satisfagan a la
+                sociedad teniendo la consideración del medio ambiente según las leyes de protección ambiental.
+            </p>
+            <a target="_blank"
+                href="https://www.fio.unicen.edu.ar/index.php?option=com_content&view=article&id=1967&Itemid=782">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+        <div class="infocarreras">
+            <h2>Igenieria Quimica</h2>
+            <p>La ingenieria quimica se encarga del estudio, diseño, manutención, evaluación, optimización, simulación,
+                construcción y operación de todo tipo de elementos en la industria de procesos, que es aquella
+                relacionada con la producción industrial de compuestos y productos cuya elaboración requiere de
+                sofisticadas transformaciones físicas y químicas de la materia.
+            </p>
+            <h3>Salida laboral:</h3>
+            <ul>
+                <li>Industrias que involucran procesos químicos, físico-químicos y de bioingeniería y sus instalaciones
+                    complementarias</li>
+                <li>Instalaciones donde se llevan a cabo operaciones unitarias y/o procesos industriales unitarios.</li>
+                <li>Instalaciones destinadas a evitar la contaminación ambiental por efluentes de todo tipo, ya sean
+                    urbanos o los originados por las industrias y/o sus servicios.</li>
+                <li>Equipos, maquinarias, aparatos e instrumentos para las industrias indicadas en los incisos
+                    anteriores.</li>
+            </ul>
+            <a target="_blank"
+                href="https://www.fio.unicen.edu.ar/index.php?option=com_content&view=article&id=1969&Itemid=784">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+        <div class="infocarreras">
+            <h2>Ingenieria Aeronáutica</h2>
+            <p>Los ingenieros aeronáuticos se dedican al diseño de todo tipo de aparatos que puedan volar. Los
+                ingenieros aeronáuticos aplican la ciencia y la tecnología para la investigación, diseño, fabricación y
+                mantenimiento de aeronaves, misiles, satélites y vehículos espaciales.
+            </p>
+            <h3>Salida laboral:</h3>
+            <ul>
+                <li>Empresas de diseño y fabricación de aeronaves, aeropartes, vehículos espaciales y plantas
+                    propulsivas.</li>
+                <li>Empresas y talleres de mantenimiento y reparación de aeronaves, tanto en el ámbito civil como
+                    militar..</li>
+                <li>Organismos de certificación, homologación y habilitación en el campo aeroespacial.</li>
+                <li>Empresas de las áreas automotrices y metal-mecánica.</li>
+            </ul>
+            <a target="_blank"
+                href="https://utn.edu.ar/es/federacion-universitaria-tecnologica/feria-de-carreras/aeronautica">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+    </div>
+
+    <div class="contenedor-agregar-tabla">
+        <h3>¿Quieres agregar una carrera con su respectiva universidad?</h3>
+        <form action="">
+            <input type="text" placeholder="Carrera" id="carrera">
+            <input type="text" placeholder="Universiad" id="universidad">
+            <input type="text" placeholder="Localidad" id="localidad">
+            <input type="text" placeholder="Duracion" id="duracion">.
+            <div>
+                <button type="submit" id="boton-agregar">Agrega tus datos</button>
+                <button type="submit" id="boton-tres">Agrega nuestras 3 recomendaciones</button>
+            </div>
+        </form>
+    </div>
+    <div class="contenido-tabla">
+        <p>En caso de ser de tandil, la carrera se resaltará</p>
+        <p>Para editar, primero complete las entradas nuevamente y luego toque en editar</p>
+        <div class="botonera-tabla">
+            <label for="filtrado">Filtra tu busqueda por localidad:</label>
+            <select name="filtrado" id="eleccionFiltrar">
+                <option value="todas">Todas</option>
+                <option value="tandil">Tandil</option>
+                <option value="olavarria">Olavarria</option>
+                <option value="azul">Azul</option>
+            </select>
+            <button id="boton-filtrar">Filtrar</button>
+        </div>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Carrera</th>
+                        <th>Universidad</th>
+                        <th>Localidad</th>
+                        <th>Duracion</th>
+                        <th>Borrar</th>
+                        <th>Editar</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla">
+                </tbody>
+            </table>
+            <div id="contenedor-botonera-paginar" class="botonera-habilitada">
+                <button id="anterior">Anterior</button>
+                <button id="siguiente">Siguiente</button>
+            </div>
+        </div>
+       
+    </div>
+    <footer>
+        <h4>Contactese con nosotros mediante: </h4>
+        <h4>Telfono: +54 2494 685548</h4>
+        <h4>Email: informateuniversidad@gmail.com</h4>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/tablaapirest.js"></script>
+</body>
+
+</html>

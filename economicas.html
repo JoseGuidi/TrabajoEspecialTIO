@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ciencias Económicas</title>
+    <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <img class="barras-menu" id="btn-menu" src="images/bars-solid.svg" alt="Barras menu">
+        <nav>
+            <ul class="nav-oculto" id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a target="_blank" href="ingenierias.html">Ingenierias</a></li>
+                <li><a target="_blank" href="economicas.html">Economicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="biblioteca">
+        <h1>Ciencias Economicas</h1>
+    </div>
+    <div class="content">
+        <div class="infocarreras">
+            <h2>Licenciatura en Econimia</h2>
+            <p> Carrera de grado de modalidad presencial. Se expide el título de Licenciado/a en Economía con validez y
+                reconocimiento oficlal según Resolución Ministerial (MECyT) Nº 1118-2009.
+                Requisitos de admisión: Ingreso libre e irrestricto. Tener aprobado el nivel medio o el ciclo polimodal
+                de enseñanza. Excepcionalmente, son admitidos los mayores de 25 años que tienen preparación y/o
+                experiencia laboral acorde con los estudios que se proponen iniciar.
+            </p>
+            <a target="_blank" href="https://www.eco.unc.edu.ar/carreras-de-grado-estudios/lic-en-economia">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+        <div class="infocarreras">
+            <h2>Contador publico</h2>
+            <p> La carrera de Contador Público, por su vinculación con la actividad de distintas organizaciones, con
+                distintas formas jurídicas, tengan o no fines de lucro, exige a los graduados que posean un sólido
+                basamento contable, en aspectos jurídicos y tributarios y en finanzas de la empresa, sustentado en un
+                adecuado conocimiento humanístico, matemático, administrativo, jurídico y fundamentalmente económico.
+                Sin embargo el mundo de los negocios donde se insertará, definitivamente, les exige además asumir un
+                papel relevante en la toma de decisiones en un contexto político y tecnológico sumamente cambiante, con
+                una fuerte formación en aspectos internacionales, con una visión integradora y con un soporte
+                herramental para que pueda generar un impacto positivo en el mundo de los negocios.
+            </p>
+            <a target="_blank" href="https://www.econ.unicen.edu.ar/carreras-grado/10415-plan-de-estudios.html">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+        <div class="infocarreras">
+            <h2>Licenciatura en administracion</h2>
+            <p> Se plantea una formación académica y una propuesta curricular que combine conocimientos, pautas
+                metodológicas y técnicas requeridas a un profesional en ciencias económicas en general, y en
+                administración, en particular, a fin de reflejar tanto los avances científicos de las distintas
+                disciplinas que conforman el perfil, como las renovadas exigencias del mercado laboral. La formación
+                específica en administración se complementa así con contenidos académicos de naturaleza contable,
+                económica, cuantitativa, jurídica e impositiva, entre otras ramas del saber.
+            </p>
+            <a target="_blank" href="https://www.econ.unicen.edu.ar/carreras-grado/10428-plan-de-estudios-la.html">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+        <div class="infocarreras">
+            <h2> Licenciatura en gestion tecnologica</h2>
+            <p> Tal propuesta curricular será dinámica a fin de reflejar tanto los avances científicos de las distintas
+                disciplinas que conforman tal perfil, como las renovadas exigencias de conocimientos tecnológicos en el
+                actual mercado laboral.
+                Está en el espíritu de esta carrera que se promueva el diálogo interdisciplinario y esto se sustentará
+                no solo en los conocimientos comunes a las Ciencias Económicas si no en la adopción de nuevos
+                conocimientos tecnológicos que implican una nueva forma de dialogar e interactuar con otras profesiones.
+            </p>
+            <a target="_blank"
+                href="https://www.econ.unicen.edu.ar/carreras-grado/licenciatura-en-gestion-tecnologica/11071-licenciatura-en-gestion-tecnologica-.html">Aca
+                podes ver el plan de estudios
+            </a>
+        </div>
+    </div>
+
+    <div class="contenedor-agregar-tabla">
+        <h3>¿Quieres agregar una carrera con su respectiva universidad?</h3>
+        <form action="">
+            <input type="text" placeholder="Carrera" id="carrera">
+            <input type="text" placeholder="Universiad" id="universidad">
+            <input type="text" placeholder="Localidad" id="localidad">
+            <input type="text" placeholder="Duracion" id="duracion">.
+            <div>
+                <button type="submit" id="boton-agregar">Agrega tus datos</button>
+                <button type="submit" id="boton-tres">Agrega nuestras 3 recomendaciones</button>
+            </div>
+        </form>
+    </div>
+    <div class="contenido-tabla">
+        <p>En caso de ser de tandil, la carrera se resaltará</p>
+        <p>Para editar, primero complete las entradas nuevamente y luego toque en editar</p>
+        <div class="botonera-tabla">
+            <label for="filtrado">Filtra tu busqueda por localidad:</label>
+            <select name="filtrado" id="eleccionFiltrar">
+                <option value="todas">Todas</option>
+                <option value="tandil">Tandil</option>
+                <option value="olavarria">Olavarria</option>
+                <option value="azul">Azul</option>
+            </select>
+            <button id="boton-filtrar">Filtrar</button>
+        </div>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Carrera</th>
+                        <th>Universidad</th>
+                        <th>Localidad</th>
+                        <th>Duracion</th>
+                        <th>Borrar</th>
+                        <th>Editar</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla">
+                </tbody>
+            </table>
+            <div id="contenedor-botonera-paginar" class="botonera-habilitada">
+                <button id="anterior">Anterior</button>
+                <button id="siguiente">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Contactese con nosotros mediante: </h4>
+        <h4>Telfono: +54 2494 685548</h4>
+        <h4>Email: informateuniversidad@gmail.com</h4>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/tablaapirest.js"></script>
+</body>
+
+</html>

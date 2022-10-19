@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <img class="barras-menu" id="btn-menu" src="images/bars-solid.svg" alt="Barras menu">
+        <nav>
+            <ul class="nav-oculto" id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a target="_blank" href="ingenierias.html">Ingenierias</a></li>
+                <li><a target="_blank" href="economicas.html">Economicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="biblioteca">
+        <h1>Informate Universidad</h1>
+    </div>
+    <div class="content">
+        <div class="about">
+            <h2>Nosotros somos: </h2>
+            <p>Somos Informate Universidad, decidimos realizar una pagina informativa acerca de las carreras
+                universitarias ya que una de las decisiones más difíciles que nos toca afrontar cuando terminamos la
+                secundaria es la elección de la carrera que vamos a seguir, en base a nuestros gustos, habilidades y
+                expectativas de
+                desarrollo profesional. Sin embargo, no sólo basta con haber escogido la carrera correcta. Por eso
+                en esta pagina te vamos a mostrar algunas de las carreras que a nosotros nos interesan para que le
+                heches un ojo. Si te interesa recibir mas información completa con tus datos el formulario de aqui
+                abajo.</p>
+                <img src="images/about.jpeg" alt="Nosotros">
+        </div>
+        <div class="cuestionario">
+            <div class="formulario-captcha">
+                <h2>Completá si quieres suscribirte para recibir informacion</h2>
+                <form action="" id="form-captcha">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+                    <label>Apellido:</label>
+                    <input type="text" placeholder="Ingrese su apellido" required>
+                    <label>Email:</label>
+                    <input type="email" required placeholder="Ejemplo@gmail.com">
+                    <button>Enviar</button>
+                </form>
+
+            </div>
+            <div class="captcha-oculto" id="captcha-oculto">
+                <p id="numeroaleatorio"></p>
+                <input id="input-captcha" type="text">
+                <button id="boton-verificar">Verificar</button>
+                <p id="resultado-captcha">Resultado:</p>
+            </div>
+        </div>
+        <div class="novedades">
+            <h2>Novedades</h2>
+            <h3>La nueva carrera que promete, licenciatura en gestion tecnologica.</h3>
+            <p>El plan de estudios propone una formación académica que busca combinar conocimientos, pautas
+                metodológicas y técnicas requeridas a un profesional en ciencias económicas, en general, y a un
+                Licenciado en Gestión Tecnológica, en particular.</p>
+            <a class="info" href="economicas.html">Ver mas...</a>
+            <img src="images/campus.jpg" alt="Fotografia de economicas">
+        </div>
+    </div>
+
+
+    <footer>
+        <h4>Contactese con nosotros mediante: </h4>
+        <h4>Telfono: +54 2494 685548</h4>
+        <h4>Email: informateuniversidad@gmail.com</h4>
+    </footer>
+    <script src="js/captcha.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
