@@ -1,2 +1,4 @@
 informacion para utilizar en la pagina de inicio:
 Acerca de nosotros: Somos un grupo de amigos que decidieron compartir buenos momentos juntos. Nos apasiona hablar sobre vinos y es por ello que decidimos armar esta web, para que ustedes tengan nuestra humilde opinion y sepan que elegir a la hora de comprar un vino.
+Novedades: vino piedra infinita
+	-descripcion: Finca Piedra Infinita es un Malbec contruido con una cuidadosa seleccion de parcelas de la finca que crecen sobre los suelos menos profundos. Es un autentico vino de montaña.
