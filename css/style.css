@@ -6,7 +6,7 @@
 
 /* HEADER Y NAV */
 header img[alt="Logo"] {
-    width: 200px;
+    height: 75px;
 }
 .barras-menu{       /* dejo esta clase y no header img[alt="Barras menu" ya que la clase se necesita si o si*/
     width: 50px;
