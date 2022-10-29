@@ -1,1 +1,2 @@
-informacion para utilizar en la apgina de inicio:
+informacion para utilizar en la pagina de inicio:
+Acerca de nosotros: Somos un grupo de amigos que decidieron compartir buenos momentos juntos. Nos apasiona hablar sobre vinos y es por ello que decidimos armar esta web, para que ustedes tengan nuestra humilde opinion y sepan que elegir a la hora de comprar un vino.
