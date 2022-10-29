@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(250, 213, 7);
+    background-color: rgb(155, 154, 148);
 }
 
 header nav {
@@ -27,7 +27,7 @@ header nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(238, 207, 30);
+    background-color: rgb(155, 154, 148);
     width: 100%;
     border-top: 6px solid rgb(100, 16, 75);
 }
@@ -63,7 +63,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: rgb(250, 213, 7);
+    background-color: rgb(155, 154, 148);
     padding: 0 10px;
     justify-content: center;
     border-top: 6px solid rgb(100, 16, 75);  
@@ -380,7 +380,7 @@ div.botonera-tabla button{
     }
     header nav {
         width: auto;
-        background-color: rgb(250, 213, 7);
+        background-color: rgb(155, 154, 148);
         border: none;
     }
     .nav-oculto li {
