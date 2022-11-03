@@ -91,6 +91,25 @@ footer h4 {
     color: rgb(0, 0, 0);
     text-transform: uppercase;
 }
+.biblioteca1 {
+   
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: url(../images/uvas.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.divcenter {
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(9, 9, 9);
+}
 
 /*content*/
 div.content {
