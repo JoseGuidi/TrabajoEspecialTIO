@@ -318,6 +318,16 @@ div.tabla div button{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.botonera-habilitada2{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 .contenido-tabla {
     display: flex;
     justify-content: center;
